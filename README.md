@@ -104,3 +104,9 @@ In the `Bios` folder you will find:
 ## Resources
 
 - [ROG Strix TRX40-E Gaming Manual (PDF)](Manual/ROG_Strix_TRX40-E_Gaming_Manual.pdf)
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=klich3/macOS-on-ROG-TRX40-AMD-Threadripper-3960X&type=Date)](https://www.star-history.com/#klich3/macOS-on-ROG-TRX40-AMD-Threadripper-3960X&Date)

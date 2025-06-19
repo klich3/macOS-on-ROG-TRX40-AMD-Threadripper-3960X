@@ -1,0 +1,913 @@
+{
+    "Motherboard": {
+        "Name": "ASUSTEK ROG STRIX TRX40-E GAMING",
+        "Chipset": "TRX40",
+        "Platform": "Desktop"
+    },
+    "BIOS": {
+        "Version": "2102",
+        "Release Date": "2024-02-16",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "AMD",
+        "Processor Name": "AMD Ryzen Threadripper 3960X 24-Core Processor",
+        "Codename": "Castle Peak",
+        "Core Count": "24",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, SSE4a, AVX, AVX2"
+    },
+    "GPU": {
+        "NVIDIA GeForce RTX 3090": {
+            "Manufacturer": "NVIDIA",
+            "Codename": "Unknown",
+            "Device ID": "10DE-2204",
+            "Device Type": "Discrete GPU",
+            "Subsystem ID": "161319DA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "Resizable BAR": "Disabled"
+        },
+        "Microsoft Basic Display Adapter": {
+            "Manufacturer": "AMD",
+            "Codename": "Navi 22",
+            "Device ID": "1002-73DF",
+            "Device Type": "Discrete GPU",
+            "Subsystem ID": "73DF1002",
+            "PCI Path": "PciRoot(0x14)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)"
+        }
+    },
+    "Monitor": {
+        "LG HDR WFHD": {
+            "Connector Type": "HDMI",
+            "Resolution": "2560x1080",
+            "Connected GPU": "NVIDIA GeForce RTX 3090"
+        }
+    },
+    "Network": {
+        "Network Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "14E4-43A0",
+            "Subsystem ID": "0111106B",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD2.BYS2"
+        },
+        "Intel(R) Wi-Fi 6 AX200 160MHz": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-2723",
+            "Subsystem ID": "00848086",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD6.BYS6"
+        },
+        "Intel(R) I211 Gigabit Network Connection": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1539",
+            "Subsystem ID": "85F01043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x5,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD5.BYS5"
+        },
+        "Realtek PCIe 2.5GbE Family Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8125",
+            "Subsystem ID": "879B1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x4,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD4.BYS4"
+        }
+    },
+    "Sound": {
+        "AMD High Definition Audio Device": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "1002-AA01",
+            "Subsystem ID": "00AA0100",
+            "Controller Device ID": "1002-AB28"
+        },
+        "Realtek USB2.0 Audio": {
+            "Bus Type": "USB",
+            "Device ID": "0B05-1917",
+            "Audio Endpoints": [
+                "SPDIF Interface"
+            ]
+        },
+        "NVIDIA High Definition Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10DE-009A",
+            "Subsystem ID": "19DA1613",
+            "Audio Endpoints": [
+                "LG HDR WFHD"
+            ],
+            "Controller Device ID": "10DE-1AEF"
+        }
+    },
+    "USB Controllers": {
+        "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-149C",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x8,0x0)/Pci(0x0,0x1)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD8.XHC1"
+        },
+        "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-148C",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)",
+            "ACPI Path": "\\_SB.PCI0.D0B8.XHC0"
+        },
+        "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-149C",
+            "Subsystem ID": "148C1022",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x8,0x0)/Pci(0x0,0x3)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD8.XHC0"
+        },
+        "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)_#3": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-148C",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x8,0x1)/Pci(0x0,0x3)",
+            "ACPI Path": "\\_SB.S0D1.D1B8.XHC0"
+        }
+    },
+    "Input": {
+        "Nano Receiver": {
+            "Bus Type": "USB",
+            "Device ID": "046D-C534"
+        },
+        "Bluetooth HID Keyboard": {
+            "Bus Type": "USB",
+            "Device ID": "05AC-820A"
+        },
+        "Bluetooth HID Mouse": {
+            "Bus Type": "USB",
+            "Device ID": "05AC-820B"
+        },
+        "USB Input Device": {
+            "Bus Type": "USB",
+            "Device ID": "0B05-1872"
+        },
+        "USB Input Device_#1": {
+            "Bus Type": "USB",
+            "Device ID": "0B05-18F3"
+        },
+        "USB Input Device_#2": {
+            "Bus Type": "USB",
+            "Device ID": "0B05-1917"
+        },
+        "USB Input Device_#3": {
+            "Bus Type": "USB",
+            "Device ID": "1B1C-0C18"
+        }
+    },
+    "Storage Controllers": {
+        "FCH SATA Controller [AHCI mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-7901",
+            "Subsystem ID": "79011022",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0xa,0x0)/Pci(0x0,0x0)",
+            "Disk Drives": [
+                "Samsung SSD 870 QVO 1TB"
+            ]
+        },
+        "FCH SATA Controller [AHCI mode]_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-7901",
+            "Subsystem ID": "79011022",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x9,0x0)/Pci(0x0,0x0)"
+        },
+        "E12 NVMe Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "1987-5012",
+            "Subsystem ID": "50121987",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x4)/Pci(0x0,0x0)",
+            "Disk Drives": [
+                "Corsair MP400"
+            ]
+        }
+    },
+    "Bluetooth": {
+        "Intel(R) Wireless Bluetooth(R)": {
+            "Bus Type": "USB",
+            "Device ID": "8087-0029"
+        }
+    },
+    "System Devices": {
+        "AirPods Pro de Franc - Find My Hands-Free AG": {
+            "Bus Type": "BTHENUM"
+        },
+        "Motherboard resources": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.SBRG.SIO1"
+        },
+        "PCI standard host CPU bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1480",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "PCI standard host CPU bridge_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x1,0x0)"
+        },
+        "PCI standard host CPU bridge_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x2,0x0)"
+        },
+        "PCI standard host CPU bridge_#3": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x3,0x0)"
+        },
+        "PCI standard host CPU bridge_#4": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x4,0x0)"
+        },
+        "PCI standard host CPU bridge_#5": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x5,0x0)"
+        },
+        "PCI standard host CPU bridge_#6": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x7,0x0)"
+        },
+        "PCI standard host CPU bridge_#7": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x8,0x0)"
+        },
+        "AMD PCI": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-148A",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x7,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D3.D3C0.D074"
+        },
+        "AMD PCI_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-148A",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x7,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D1.D1C0.D036"
+        },
+        "PCI Express Root Port": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x7,0x1)",
+            "ACPI Path": "\\_SB.S0D2.D2C0"
+        },
+        "PCI Express Root Port_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x8,0x1)",
+            "ACPI Path": "\\_SB.S0D2.BR57"
+        },
+        "AMD SMBus": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-790B",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.D083"
+        },
+        "Programmable interrupt controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.SBRG.PIC_"
+        },
+        "PCI standard host CPU bridge_#8": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1494",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x4)"
+        },
+        "Volume Manager": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "High precision event timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.HPET"
+        },
+        "Microsoft Hyper-V Virtual Machine Bus Provider": {
+            "Bus Type": "ROOT",
+            "Device": "VMBUS"
+        },
+        "Microsoft Basic Display Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "PCI Express Root Port_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x7,0x1)",
+            "ACPI Path": "\\_SB.S0D1.D1C0"
+        },
+        "PCI Express Root Port_#3": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x8,0x1)",
+            "ACPI Path": "\\_SB.S0D1.D1B8"
+        },
+        "Microsoft Windows Management Interface for ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.ACCE"
+        },
+        "Microsoft Hypervisor Service": {
+            "Bus Type": "ROOT",
+            "Device": "HVSERVICE"
+        },
+        "AMD GPIO Controller": {
+            "Bus Type": "ACPI",
+            "Device": "AMDI0030",
+            "ACPI Path": "\\_SB.GPIO"
+        },
+        "PCI standard host CPU bridge_#9": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1491",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x1)"
+        },
+        "Microsoft Windows Management Interface for ACPI_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.AMW0"
+        },
+        "Motherboard resources_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.S0D2.UMEM"
+        },
+        "Microsoft Hyper-V Virtualization Infrastructure Driver": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "Microsoft ACPI-Compliant Embedded Controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PCI0.SBRG.EC0_"
+        },
+        "Composite Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "PCI Express Downstream Switch Port": {
+            "Bus Type": "PCI",
+            "Device ID": "1002-1479",
+            "Subsystem ID": "14791002",
+            "PCI Path": "PciRoot(0x14)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)"
+        },
+        "Microsoft Virtual Drive Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "PCI Express Root Port_#4": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x7,0x1)",
+            "ACPI Path": "\\_SB.S0D3.D3C0"
+        },
+        "PCI Express Root Port_#5": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x8,0x1)",
+            "ACPI Path": "\\_SB.S0D3.BR77"
+        },
+        "AMD PCI_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1485",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x8,0x0)/Pci(0x0,0x0)"
+        },
+        "PCI standard host CPU bridge_#10": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1496",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x6)"
+        },
+        "System timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.SBRG.TMR_"
+        },
+        "AMD PCI_#3": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1485",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x8,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D3.BR77.D078"
+        },
+        "PCI Express Root Port_#6": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1483",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)",
+            "ACPI Path": "\\_SB.S0D2.D2A0"
+        },
+        "PCI Express Root Port_#7": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1483",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x4)",
+            "ACPI Path": "\\_SB.S0D2.D2A3"
+        },
+        "PCI Express Upstream Switch Port": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57AD",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP"
+        },
+        "PCI standard host CPU bridge_#11": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)"
+        },
+        "PCI standard host CPU bridge_#12": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)"
+        },
+        "PCI standard host CPU bridge_#13": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x3,0x0)"
+        },
+        "PCI standard host CPU bridge_#14": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x4,0x0)"
+        },
+        "PCI standard host CPU bridge_#15": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x5,0x0)"
+        },
+        "PCI standard host CPU bridge_#16": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x7,0x0)"
+        },
+        "PCI standard host CPU bridge_#17": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x8,0x0)"
+        },
+        "UMBus Root Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Motherboard resources_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.D0B8.APSP"
+        },
+        "PCI standard host CPU bridge_#18": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1493",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x3)"
+        },
+        "AMD PCI_#4": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1485",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.D0B8.D01C"
+        },
+        "System board": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C01",
+            "ACPI Path": "\\_SB.PCI0.AMDN"
+        },
+        "Microsoft Windows Management Interface for ACPI_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.AOD_"
+        },
+        "Microsoft Windows Management Interface for ACPI_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.AWW0"
+        },
+        "PCI Express Root Complex": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "PCI Express Root Complex_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.S0D1"
+        },
+        "PCI Express Root Complex_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.S0D2"
+        },
+        "PCI Express Root Complex_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.S0D3"
+        },
+        "PCI Express Root Port_#8": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1483",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x3,0x1)",
+            "ACPI Path": "\\_SB.S0D1.D1B0"
+        },
+        "PCI standard host CPU bridge_#19": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1480",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x0,0x0)"
+        },
+        "PCI standard host CPU bridge_#20": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1480",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x0,0x0)"
+        },
+        "Microsoft Hyper-V PCI Server": {
+            "Bus Type": "ROOT",
+            "Device": "VPCIVSP"
+        },
+        "PCI Express Root Port_#9": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x7,0x1)",
+            "ACPI Path": "\\_SB.PCI0.D0C0"
+        },
+        "PCI Express Root Port_#10": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1484",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x8,0x1)",
+            "ACPI Path": "\\_SB.PCI0.D0B8"
+        },
+        "AMD PCI_#5": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1485",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x8,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D1.D1B8.D03A"
+        },
+        "High Definition Audio Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1487",
+            "Subsystem ID": "874F1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x8,0x1)/Pci(0x0,0x4)",
+            "ACPI Path": "\\_SB.S0D1.D1B8.D03D"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Microsoft Basic Render Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "PCI standard host CPU bridge_#21": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1490",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x0)"
+        },
+        "System speaker": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0800",
+            "ACPI Path": "\\_SB.PCI0.SBRG.SPKR"
+        },
+        "High Definition Audio Controller_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1002-AB28",
+            "Subsystem ID": "AB281002",
+            "PCI Path": "PciRoot(0x14)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)"
+        },
+        "Microsoft UEFI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "UEFI"
+        },
+        "PCI standard host CPU bridge_#22": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1480",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x14)/Pci(0x0,0x0)"
+        },
+        "ACPI Fixed Feature Button": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "PCI standard host CPU bridge_#23": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x1,0x0)"
+        },
+        "PCI standard host CPU bridge_#24": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x2,0x0)"
+        },
+        "PCI standard host CPU bridge_#25": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x3,0x0)"
+        },
+        "PCI standard host CPU bridge_#26": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x4,0x0)"
+        },
+        "PCI standard host CPU bridge_#27": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x5,0x0)"
+        },
+        "PCI standard host CPU bridge_#28": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x7,0x0)"
+        },
+        "PCI standard host CPU bridge_#29": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x3c)/Pci(0x8,0x0)"
+        },
+        "Motherboard resources_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.S0D1.UMEM"
+        },
+        "Motherboard resources_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.AWR0"
+        },
+        "Motherboard resources_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.AWR1"
+        },
+        "High Definition Audio Controller_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "10DE-1AEF",
+            "Subsystem ID": "161319DA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x1)"
+        },
+        "Microsoft Windows Management Interface for ACPI_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.PCI0.WMI1"
+        },
+        "Direct memory access controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0200",
+            "ACPI Path": "\\_SB.PCI0.SBRG.DMAD"
+        },
+        "PCI Express Downstream Switch Port_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57A4",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x8,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD8"
+        },
+        "Motherboard resources_#6": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.UMEM"
+        },
+        "Microsoft Hyper-V Virtual Disk Server": {
+            "Bus Type": "ROOT",
+            "Device": "STORVSP"
+        },
+        "PCI Express Downstream Switch Port_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57A3",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD2"
+        },
+        "PCI standard host CPU bridge_#30": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1495",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x5)"
+        },
+        "NVVHCI Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UNNAMED_DEVICE"
+        },
+        "System CMOS/real time clock": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0B00",
+            "ACPI Path": "\\_SB.PCI0.SBRG.RTC0"
+        },
+        "AMD PCI_#6": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-148A",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x7,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2C0.D054"
+        },
+        "ACPI Power Button": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "PCI Express Downstream Switch Port_#3": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57A4",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0xa,0x0)"
+        },
+        "NDIS Virtual Network Adapter Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "AMD I2C Controller": {
+            "Bus Type": "ACPI",
+            "Device": "AMDI0010",
+            "ACPI Path": "\\_SB.I2CA"
+        },
+        "PCI Express Downstream Switch Port_#4": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57A3",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x4,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD4"
+        },
+        "PCI Express Downstream Switch Port_#5": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57A4",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x9,0x0)"
+        },
+        "AMD PCI_#7": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-148A",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x7,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.D0C0.D018"
+        },
+        "PCI standard host CPU bridge_#31": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1492",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x2)"
+        },
+        "Motherboard resources_#7": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.S900"
+        },
+        "Motherboard resources_#8": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.S0D3.UMEM"
+        },
+        "PCI Express Downstream Switch Port_#6": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57A3",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x6,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD6"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "AMD PCI_#8": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1485",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x8,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.S0D2.BR57.D058"
+        },
+        "PCI Express Root Port_#11": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1483",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x1)",
+            "ACPI Path": "\\_SB.PCI0.D0A0"
+        },
+        "PCI standard host CPU bridge_#32": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x0)"
+        },
+        "PCI standard host CPU bridge_#33": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x2,0x0)"
+        },
+        "PCI standard host CPU bridge_#34": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x3,0x0)"
+        },
+        "PCI standard host CPU bridge_#35": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x4,0x0)"
+        },
+        "PCI standard host CPU bridge_#36": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x5,0x0)"
+        },
+        "PCI standard host CPU bridge_#37": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x7,0x0)"
+        },
+        "PCI standard host CPU bridge_#38": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1482",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x28)/Pci(0x8,0x0)"
+        },
+        "PCI Express Downstream Switch Port_#7": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-57A3",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x28)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x5,0x0)",
+            "ACPI Path": "\\_SB.S0D2.D2A0.BYUP.BYD5"
+        },
+        "Plug and Play Software Device Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Corsair Bus": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Duet Static Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Remote Desktop Device Redirector Bus": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        },
+        "PCI standard ISA bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-790E",
+            "Subsystem ID": "87CB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x3)",
+            "ACPI Path": "\\_SB.PCI0.SBRG"
+        },
+        "PCI standard host CPU bridge_#39": {
+            "Bus Type": "PCI",
+            "Device ID": "1022-1497",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x18,0x7)"
+        },
+        "PCI Express Upstream Switch Port_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "1002-1478",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x14)/Pci(0x3,0x1)/Pci(0x0,0x0)"
+        }
+    }
+}
